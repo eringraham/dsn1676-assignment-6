@@ -111,3 +111,61 @@ div {
     max-height: 10em;
 }
 
+.js-bounce {
+    -webkit-animation: ball-bounce 1s linear;
+    animation: ball-bounce 1s linear;
+}
+
+@-webkit-keyframes ball-bounce {
+
+    0% {
+        right: -100px
+    }
+    
+    25% {
+        top: 15px
+    }
+    
+    50% {
+        top: 75px
+    }
+    
+    75% {
+        top: 20px
+    }
+    
+    90% {
+        top: 75px
+    }
+    
+    100% {
+        right: 200px;
+    }
+}
+
+@keyframes ball-bounce {
+
+    0% {
+        right: -100px
+    }
+    
+    25% {
+        top: 15px
+    }
+    
+    50% {
+        top: 75px
+    }
+    
+    75% {
+        top: 20px
+    }
+    
+    90% {
+        top: 75px
+    }
+    
+    100% {
+        right: 200px;
+    }
+}
