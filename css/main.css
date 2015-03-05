@@ -116,6 +116,11 @@ div {
     animation: ball-bounce 1s linear;
 }
 
+.js-li {
+    -webkit-animation: js-li 200ms linear forwards;
+    animation: js-li 200ms linear forwards;
+}
+
 @-webkit-keyframes ball-bounce {
 
     0% {
@@ -167,5 +172,27 @@ div {
     
     100% {
         right: 200px;
+    }
+}
+
+@-webkit-keyframes js-li {
+    
+    0% {
+        max-height: 0em;
+    }
+    
+    100% {
+        max-height: 2em;
+    }
+}
+
+@keyframes js-li {
+    
+    0% {
+        max-height: 0em;
+    }
+    
+    100% {
+        max-height: 2em;
     }
 }
